@@ -1,0 +1,13 @@
+@import "scss/style";
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+.site-wrapper {
+  height: 100%;
+  @include flexbox;
+  @include flex-flow(column nowrap);
+}
